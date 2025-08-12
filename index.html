@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Desenvolvedor Unity & AR Mobile</title>
+    <meta name="description" content="Portfólio de aplicativos mobile com realidade aumentada desenvolvidos em Unity">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2>Portfólio</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Início</a></li>
+                    <li><a href="#about" class="nav-link">Sobre</a></li>
+                    <li><a href="#apps" class="nav-link">Aplicativos</a></li>
+                    <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                    <li><a href="#contact" class="nav-link">Contato</a></li>
+                </ul>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Desenvolvedor Unity & AR Mobile</h1>
+                <p class="hero-subtitle">Criando experiências imersivas com realidade aumentada para dispositivos móveis</p>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="4">0</span>
+                        <span class="stat-label">Anos de Experiência</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="10">0</span>
+                        <span class="stat-label">Aplicativos Publicados</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="2">0</span>
+                        <span class="stat-label">Plataformas</span>
+                    </div>
+                </div>
+                
+                <div class="hero-buttons">
+                    <a href="#apps" class="btn">Ver Aplicativos</a>
+                    <a href="#contact" class="btn btn-secondary">Entrar em Contato</a>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="hero-phone">
+                    <div class="phone-screen">
+                        <div class="ar-demo"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sobre Mim</h2>
+                <p class="section-subtitle">Desenvolvedor apaixonado por tecnologia e inovação</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Sou um desenvolvedor Unity com 4 anos de experiência especializado em aplicativos mobile com realidade aumentada. Trabalho em uma empresa de tecnologia focada em criar experiências imersivas e inovadoras.</p>
+                    <p>Durante minha jornada, desenvolvi e publiquei mais de 10 aplicativos nas principais lojas de aplicativos (Google Play Store e Apple App Store), sempre priorizando a qualidade do usuário e a performance dos aplicativos.</p>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Desenvolvimento Mobile</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-vr-cardboard"></i>
+                            <span>Realidade Aumentada</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-gamepad"></i>
+                            <span>Unity Engine</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-rocket"></i>
+                            <span>Inovação Tecnológica</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="profile-card">
+                    <div class="profile-avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>Desenvolvedor Unity</h3>
+                    <p>Especialista em AR Mobile</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Apps -->
+    <section id="apps" class="apps">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Meus Aplicativos</h2>
+                <p class="section-subtitle">Aplicativos mobile com realidade aumentada publicados nas principais lojas</p>
+            </div>
+            
+            <div class="apps-grid" id="apps-grid">
+                <!-- Apps serão inseridos aqui pelo JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Habilidades & Tecnologias</h2>
+                <p class="section-subtitle">Tecnologias e ferramentas que utilizo no desenvolvimento</p>
+            </div>
+            
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3>Desenvolvimento</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-unity"></i>
+                            <span>Unity Engine</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-android"></i>
+                            <span>Android Development</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-apple"></i>
+                            <span>iOS Development</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>C# Programming</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>Realidade Aumentada</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-cube"></i>
+                            <span>AR Foundation</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-eye"></i>
+                            <span>Computer Vision</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>ARCore/ARKit</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-camera"></i>
+                            <span>Camera Integration</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>Ferramentas</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git & GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>Database Design</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cloud"></i>
+                            <span>Cloud Services</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-tools"></i>
+                            <span>Development Tools</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Entre em Contato</h2>
+                <p class="section-subtitle">Vamos conversar sobre oportunidades e projetos</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>seu.email@exemplo.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <p>linkedin.com/in/seu-perfil</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h3>GitHub</h3>
+                            <p>github.com/seu-usuario</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Seu Nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Seu Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Assunto" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Sua Mensagem" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Portfólio. Todos os direitos reservados.</p>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
