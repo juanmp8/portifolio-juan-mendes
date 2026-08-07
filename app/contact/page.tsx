@@ -30,7 +30,9 @@ export default function Contact() {
                             </div>
                             <div>
                                 <h3 className="text-lg font-bold text-white">Email</h3>
-                                <p className="text-white/60">contact@pexonlabs.com</p>
+                                <a href="mailto:pexonlabs@gmail.com" className="text-white/60 hover:text-turquoise transition-colors">
+                                    pexonlabs@gmail.com
+                                </a>
                             </div>
                         </div>
                         <div className="flex items-start space-x-4">
@@ -39,7 +41,7 @@ export default function Contact() {
                             </div>
                             <div>
                                 <h3 className="text-lg font-bold text-white">Localização</h3>
-                                <p className="text-white/60">Remoto / Global</p>
+                                <p className="text-white/60">Santos/SP</p>
                             </div>
                         </div>
                         <div className="flex items-start space-x-4">
@@ -48,7 +50,9 @@ export default function Contact() {
                             </div>
                             <div>
                                 <h3 className="text-lg font-bold text-white">Telefone</h3>
-                                <p className="text-white/60">+1 (555) 123-4567</p>
+                                <a href="tel:13988603413" className="text-white/60 hover:text-turquoise transition-colors">
+                                    (13) 98860-3413
+                                </a>
                             </div>
                         </div>
                     </div>

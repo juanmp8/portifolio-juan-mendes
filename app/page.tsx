@@ -34,9 +34,9 @@ export default function Home() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link href="/projects">
+            <Link href="/about">
               <Button size="lg" className="group">
-                Ver Projetos
+                Sobre a Pexon Labs
                 <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
               </Button>
             </Link>

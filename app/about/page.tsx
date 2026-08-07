@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { Code, Globe, Server, Cpu } from "lucide-react";
 
 export default function About() {
@@ -29,14 +30,14 @@ export default function About() {
                             Seja uma aplicação web complexa ou um portfólio deslumbrante, navegamos pelas complexidades do código para entregar resultados perfeitos.
                         </p>
                     </div>
-                    <div className="relative h-64 md:h-80 rounded-2xl overflow-hidden bg-white/5 border border-white/10 flex items-center justify-center">
-                        {/* Placeholder for a profile image or abstract sea representation */}
-                        <div className="absolute inset-0 bg-gradient-to-br from-deep-blue to-turquoise opacity-20" />
-                        <div className="text-center p-6">
-                            <span className="text-6xl mb-4 block">🌊</span>
-                            <span className="text-xl font-bold text-white">Juan Mendes Peixoto</span>
-                            <span className="block text-sm text-turquoise mt-1">Fundador & Desenvolvedor Líder</span>
-                        </div>
+                    <div className="relative h-72 md:h-96 rounded-2xl overflow-hidden border border-white/10 shadow-xl bg-white/5">
+                        <Image
+                            src="/images/foto-peixoto.png"
+                            alt="Juan Mendes Peixoto - Fundador & Desenvolvedor Líder"
+                            fill
+                            className="object-contain md:object-cover object-top"
+                            priority
+                        />
                     </div>
                 </div>
 

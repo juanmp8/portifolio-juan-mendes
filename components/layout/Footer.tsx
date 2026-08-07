@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 export function Footer() {
     const currentYear = new Date().getFullYear();
@@ -18,7 +18,7 @@ export function Footer() {
 
                 <div className="flex items-center space-x-6">
                     <a
-                        href="https://github.com"
+                        href="https://github.com/juanmp8"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-white/60 hover:text-turquoise transition-colors"
@@ -27,7 +27,7 @@ export function Footer() {
                         <Github size={20} />
                     </a>
                     <a
-                        href="https://linkedin.com"
+                        href="https://www.linkedin.com/in/juanmpeixoto"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-white/60 hover:text-turquoise transition-colors"
@@ -36,16 +36,7 @@ export function Footer() {
                         <Linkedin size={20} />
                     </a>
                     <a
-                        href="https://twitter.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-white/60 hover:text-turquoise transition-colors"
-                        aria-label="Twitter"
-                    >
-                        <Twitter size={20} />
-                    </a>
-                    <a
-                        href="mailto:contact@pexonlabs.com"
+                        href="mailto:pexonlabs@gmail.com"
                         className="text-white/60 hover:text-turquoise transition-colors"
                         aria-label="Email"
                     >

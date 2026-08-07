@@ -11,7 +11,6 @@ import { twMerge } from "tailwind-merge";
 const navLinks = [
     { name: "Início", href: "/" },
     { name: "Sobre", href: "/about" },
-    { name: "Projetos", href: "/projects" },
     { name: "Contato", href: "/contact" },
 ];
 
