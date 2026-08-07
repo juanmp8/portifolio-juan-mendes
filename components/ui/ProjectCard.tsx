@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
-import { clsx } from "clsx";
 
 interface ProjectCardProps {
     title: string;

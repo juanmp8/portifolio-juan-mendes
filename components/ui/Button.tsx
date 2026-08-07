@@ -1,5 +1,4 @@
 import { ButtonHTMLAttributes, forwardRef } from "react";
-import { clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {

@@ -33,7 +33,7 @@ export default function ProjectDetails() {
 
                     <p className="text-lg text-white/80 leading-relaxed">
                         Esta é uma descrição detalhada do projeto. Ela explica o problema resolvido, os desafios técnicos superados e o impacto da solução.
-                        A filosofia de design segue o conceito "Tecnologia + Mar", garantindo uma experiência de usuário fluida.
+                        A filosofia de design segue o conceito &quot;Tecnologia + Mar&quot;, garantindo uma experiência de usuário fluida.
                     </p>
 
                     <div className="flex gap-4">
